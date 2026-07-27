@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ammar.Dev</title>
+</head>
+
+<body class="min-h-screen text-zinc-900 font-sans dark:bg-[#09090b] dark:text-white ">
+  <header>
+    <nav class="relative flex justify-between items-center px-3 py-4 border-b-[0.5px] border-[#27272A] md:px-8 lg:px-10 ">
+      <div id="hamburgMenu" class="md:hidden">
+        <span id="hamburgIcon" class="  icon-[lucide--panel-left] w-6 h-6 cursor-pointer"></span>
+      </div>
+      <div class=" blur-none logoNname flex gap-1 font-extrabold items-center">
+        <h1>ammar.</h1>
+        <span class="icon-[ph--dev-to-logo-thin] w-9 h-9 text-zinc-400 "></span>
+      </div>
+      <ul id="slideBar"  class="fixed bottom-0 left-0 z-10 gap-10 w-full h-screen p-10 shadow-2xl transition-all duration-300 translate-y-full md:translate-y-0 flex flex-col bg-white text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300 md:bg-transparent md:dark:bg-transparent md:shadow-none md:p-0 md:flex md:static md:h-fit md:flex-row md:justify-center md:gap-4 text-sm font-medium ">
+        <span id="Xbtn" class="absolute right-8 md:hidden">X</span>
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">Home</li>
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">About Me</li>
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">Projects</li>
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">Skills</li>
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">Experience</li> 
+        <li class="cursor-pointer hover:text-black dark:hover:text-white transition-all duration-200">Contact</li>
+      </ul>
+      <div id="links" class="flex gap-4">
+        <button id="darkMode" class="icon-[lucide--moon] w-4.5 h-4.5 opacity-70 hover:opacity-100 transition duration-200 inline dark:hidden"></button>
+         <button id="lightMode" class="icon-[lucide--sun] w-4.5 h-4.5 opacity-70 hover:opacity-100 transition duration-200 hidden dark:inline "></button>
+        <a class="icon-[simple-icons--github] w-4.5 h-4.5 opacity-70 hover:opacity-100 transition duration-200" href="#"></a>
+        <a class="icon-[simple-icons--linkedin] w-4.5 h-4.5 opacity-70 hover:opacity-100 transition duration-200" href="#"></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO Section -->
+  <section class="flex flex-col gap-5 w-full px-5 py-4 md:px-8 lg:px-10 ">
+    <img class="m-auto rounded-md border-[none] w-50 h-50" src="./src/Assets/ammar.Awan.png" alt="Ammar">
+
+    <div class="flex flex-col gap-4 pt-5">
+      <h2 class="text-4xl font-extrabold font-sans">Ammar Awan</h2>
+      <h2 class="text-3xl text-zinc-600 dark:text-[#9F9FA9] font-bold">A coder by day, problem-solver by night</h2>
+    </div>
+    <p  class=" text-sm text-zinc-600 dark:text-[#9D9DA6]">I am a dedicated Software Engineer specializing in full-stack application development. I enjoy crafting
+      responsive web solutions using modern technologies like Next.js, React, Tailwind CSS, Node.js, Express, and
+      MongoDB, while also applying DevOps practices, continuously aiming to deliver high-quality, comprehensive,
+      user-centric software solutions.</p>
+    <div class="btn-sec1 flex gap-5">
+      <button class="text-sm h-8 px-2 py-1 rounded-md flex items-center gap-2 text-white bg-[#7F22FE] ">Resume <span
+          class="icon-[lucide--file-down] w-4 h-4"></span></button>
+      <button class=" text-sm h-8 px-2 py-1 rounded-md flex items-center gap-2 dark:bg-[#7F22FE] dark:text-white">Send Mail <span
+          class="icon-[lucide--mail] w-4 h-4"></span></button>
+    </div>
+
+  </section>
+
+
+
+  <!-- // About Section // -->
+  <section class="flex flex-col lg:flex-row items-center">
+    <div class="flex flex-col gap-5 w-full px-5 py-4 my-10 md:px-8 lg:px-10 lg:w-[60%]">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-4xl font-extrabold">About Ammar</h2>
+      <h2 class="text-3xl text-zinc-600 dark:text-[#9F9FA9] font-bold">More than just a title—let’s dive deeper!</h2>
+    </div>
+    <p class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">I am a passionate Software Engineer with a knack for building full-stack web applications using modern
+      technologies like Next.js and Tailwind CSS. My journey in tech began with a curiosity for solving real-world
+      problems through innovative solutions, which evolved into a love for crafting user-centric digital experiences.
+    </p>
+    <p  class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">With a strong foundation in JavaScript frameworks, I focus on creating scalable, efficient, and visually
+      appealing applications. Currently, I am diving deeper into backend development with Node.js and Express to expand
+      my skill set and deliver powerful, server-side solutions.</p>
+    <p  class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">Beyond coding, I thrive in collaborative environments and enjoy tackling challenging problems with creative
+      solutions. I aim to contribute to impactful projects that make a difference in users' lives.</p>
+      </div>
+      <div class="hidden  lg:flex justify-center items-center w-[40%]">
+        <img class="object-cover h-79  w-79  rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2nfD7KVlJ9Nf2NV5eN2eSwL1Hxxay0VN1dZEb6I4D9Q&s=10" alt="aboutme">
+      </div>
+  </section>
+
+
+
+  <!-- Skills & Tools -->
+  <section class="flex flex-col gap-5 w-full px-5 py-4 my-10 md:px-8 lg:px-10 lg:flex-row">
+    <div class="flex flex-col gap-5 w-full lg:w-[60%]">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-4xl font-extrabold">Skills & Tools</h2>
+      <h2 class="text-3xl text-zinc-600 dark:text-[#9F9FA9] font-bold">Learned by coding all night and debugging all day!</h2>
+    </div>
+    <p class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">As a full-stack Software Engineer, I specialize in building scalable web applications using modern technologies
+      such as Next.js, React, and Tailwind CSS. I'm also expanding my expertise into DevOps and cloud practices to
+      create efficient, maintainable, robust web solutions.</p>
+    <div id="skills" class="flex flex-wrap justify-center gap-4">
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--html5] w-5 h-5"></span> HTML</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--css] w-5 h-5"></span> CSS</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--javascript] w-5 h-5"></span> JavaScript</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--tailwindcss] w-5 h-5"></span> TailwindCSS</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--react] w-5 h-5"></span> ReactJs</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--nodedotjs] w-5 h-5"></span> NodeJS</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--express] w-5 h-5"></span> ExpressJS</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--mongodb] w-5 h-5"></span> MongoDB</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--git] w-5 h-5"></span> Git</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--github] w-5 h-5"></span> GitHub</h3>
+
+      <h3 class=" text-white bg-black p-1 px-2  items-center flex gap-2 rounded-md border-[none] dark:bg-[#FAFAFA] dark:text-black  md:px-4"><span
+          class="icon-[simple-icons--postman] w-5 h-5"></span> Postman</h3>
+    </div>
+    </div>
+    <div class="hidden  lg:flex justify-center items-center w-[40%]">
+      <img class="object-cover h-79  w-79 rounded-md " src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9qMIT27CxdfBpgLVpT8TTCQV4WnGLfvrCS-r9MVtEg&s=10" alt="skill img">
+    </div>
+  </section>
+
+
+
+  <!-- Projects -->
+  <section class="flex flex-col gap-10 w-full px-5 py-4 my-10 md:px-8 lg:px-10">
+    <div class="flex flex-col gap-4">
+      <h2 class="text-4xl font-extrabold">Projects</h2>
+      <h2 class="text-3xl text-zinc-600 dark:text-[#9F9FA9] font-bold">A lot of ideas,but some are still under construction!</h2>
+    </div>
+    <div class="grid grid-cols-1  md:grid-cols-2 gap-5 w-full lg:grid-cols-3">
+
+      <div class="projectCards flex flex-wrap ">
+        <div class="flex flex-col gap-4 m-auto items-center justify-center  ">
+          <h3 class=" text-2xl  font-bold">Nike Reimagined | Modern Redesign Concept</h3>
+          <p class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">A sleek and modern redesign of Nike’s official web experience built with React and Tailwind CSS.
+          </p>
+          <img class="h-75  object-cover rounded-md border-0"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+          alt="Project 1" />
+        </div>
+        
+      </div>
+      <div class="projectCards flex flex-wrap ">
+        <div class="flex flex-col gap-4 m-auto  items-center justify-center  ">
+          <h3 class=" text-2xl  font-bold">Portfolio | Ammar</h3>
+          <p class=" text-sm  text-zinc-600 dark:text-[#9D9DA6]">A dynamic portfolio showcasing my projects, skills, and contributions using the latest web
+          technologies.</p>
+          <img class="h-75 object-cover rounded-md border-0"
+          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+          alt="Project 1" />
+        </div>
+        
+      </div>
+      <div class="projectCards flex flex-wrap ">
+        <div class="flex flex-col gap-4 m-auto  items-center justify-center  ">
+          <h3 class=" text-2xl  font-bold">News Hub | Real-Time News Platform</h3>
+          <p class="text-sm  text-zinc-600 dark:text-[#9D9DA6]">A real-time news platform delivering the latest headlines across various categories using the
+            News API..</p>
+            <img class="h-75  object-cover rounded-md border-0"
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80"
+            alt="Project 4" alt="Project 1" />
+          </div>
+          
+        </div>
+        <div class="projectCards flex flex-wrap ">
+          <div class="flex flex-col gap-4 m-auto   items-center justify-center ">
+            <h3 class=" text-2xl  font-bold">Freshmart Store | Modern Grocery Web App</h3>
+            <p class=" text-zinc-600 text-sm dark:text-[#9D9DA6]  ">A clean, modern, and responsive grocery store web app built with React, Vite, Redux, and
+              Tailwind CSS.</p>
+              <img class="h-75  object-cover rounded-md border-0"
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+             alt="Project 5" />
+            </div>
+            
+          </div>
+        </div>
+
+
+  </section>
+
+
+  <!-- Contact Me -->
+  <section class="flex flex-col gap-7 w-full px-5 py-4 lg:flex-row  md:px-8 lg:px-10 ">
+    <div class="flex flex-col gap-7 w-full lg:w-[60%] ">
+
+    <div class="flex flex-col gap-4 pt-5">
+      <h2 class="text-4xl font-extrabold font-sans">Contact</h2>
+      <h2 class="text-3xl text-zinc-600 dark:text-[#9F9FA9] font-bold">Get in touch!</h2>
+    </div>
+    
+    <form action="" class="flex flex-col gap-8">
+      <div class="flex flex-col gap-2 ">
+        <label for="Name">Name</label>
+        <input class="  px-4 py-2 rounded-md outline-1 outline-zinc-600 dark:bg-[#141416] " type="text" placeholder="Enter your name ">
+      </div>
+      <div class="flex flex-col gap-2">
+        <label for="Email">Email</label>
+        <input class=" px-4 py-2 rounded-md outline-1 outline-zinc-600 dark:bg-[#141416]" type="text" type="email" placeholder="Where can I reach you back?">
+      </div>
+      <div class="flex flex-col gap-2">
+        <label for="Message">Message</label>
+        <textarea class=" px-4 py-2 rounded-md outline-1 outline-zinc-600 dark:bg-[#141416]" placeholder="Your words, my inbox"></textarea>
+      </div>
+      <div class="flex flex-col gap-3">
+        <button class="bg-[#7F22FE] items-center text-sm h-8 px-2 py-3 justify-center rounded-md flex gap-2" type="submit">Submit</button>
+        <button  class=" outline-1 items-center text-sm h-8 px-2 py-3 justify-center rounded-md flex gap-2 dark:bg-[#141416] dark:outline-0 " type="reset">Reset</button>
+      </div>
+    </form>
+    </div>
+
+    <div class="hidden  lg:flex justify-center items-center w-[40%]">
+      <img class="object-cover h-79  w-79 rounded-full " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_2yYdZ_KdqWbNqqzM8kkZh71L7gguc_nEG_EymcLkQ&s=10" alt="getin touch">
+    </div>
+  </section>
+
+
+  <!-- footer goes here -->
+
+  <footer class=" flex flex-col justify-center items-center px-5 pt-7 pb-1 mt-13 text-center outline-1 outline-zinc-600 ">
+    <p class="text-sm text-zinc-600 dark:text-[#9D9DA6]">©2026 · Built with Html Tailwind and JS</p>
+    <p class="text-sm text-zinc-600 dark:text-[#9D9DA6]">Developed by Ammar Awan - Source code available on Github</p>
+
+  </footer>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+  
+  </html>
